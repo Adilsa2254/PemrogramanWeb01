@@ -109,7 +109,7 @@ p{
     flex-wrap: nowrap;
     gap: 1rem;
     padding-bottom: 3rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     padding-right: 1rem;
     /* align-items: center; */
     width: 100%;
