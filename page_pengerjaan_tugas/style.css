@@ -11,7 +11,7 @@ p{
 .Content_page{
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 3rem;
     padding-bottom: 3rem;
     padding-top: 3rem;
     gap: 30px;
@@ -109,7 +109,7 @@ p{
     flex-wrap: nowrap;
     gap: 1rem;
     padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-right: 1rem;
     /* align-items: center; */
     width: 100%;
