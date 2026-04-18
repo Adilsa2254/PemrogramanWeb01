@@ -227,10 +227,15 @@ h1{
  /* beleum diisi */
 }
 
-h2_skill
+.h2_skill{
+    /* font-size: 2rem; */
+    color: #32323289;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-.line_span_skill{
-    background-color: #212655;
+.line_span{
+    background-color: #32323289;;
     flex: 1 1 0%;
     height: 2px;
 }
