@@ -76,8 +76,8 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 0.5rem;
-    column-gap: 3rem;
+    row-gap: 1rem;
+    column-gap: 2rem;
     
 }
 
@@ -88,8 +88,8 @@ h1{
 }
 .p_buton_next_page2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #323232;
-    font-weight: bold;
+    color: #FAFAFA;
+    font-weight: bolder;
 }
 .p_buton_next_page3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -98,7 +98,7 @@ h1{
 }
 .p_buton_next_page4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #323232;
+    color: #FBFBFB;
     font-weight: bold;
 }
 
@@ -110,6 +110,45 @@ h1{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_edu{
+    width: 71px;
+    height: 33px;
+    aspect-ratio: 71/43;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_form{
+    width: 70px;
+    height: 33px;
+    aspect-ratio: 101/43;
+    border-radius: 12px;
+    border: 2px solid #212655;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #212655;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_tugas{
+    width: 76px;
+    height: 33px;
+    aspect-ratio: 76/43;
+    border-radius: 12px;
+    border: 2px solid #212655;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #212655;
     display: flex;
     align-items: center;
     justify-content: center;
