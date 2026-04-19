@@ -225,7 +225,7 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    align-items: center;
+    align-items: baseline;
     justify-content: space-evenly; 
     gap: 4rem;
     width: 100%;
@@ -407,8 +407,159 @@ p{
 
 
 /* logo softwear engginer */
+.logo_skill_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
 
+    .html_logo{
+        width: 34px;
+        height: 33px;
+        aspect-ratio: 34/33;
+    }
 
+}
+
+.logo_skill_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .css_logo{
+        width: 35px;
+        height: 35px;
+        aspect-ratio: 1/1;
+    }
+    
+}
+
+.logo_skill_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .js_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
+
+.logo_skill_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .py_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
+
+.logo_skill_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .mysql_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
+
+.logo_skill_6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .C_logo{
+        width: 37px;
+        height: 36px;
+        aspect-ratio: 37/36;
+    }
+}
+
+.logo_skill_7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+
+    .java_logo{
+        width: 35px;
+        height: 35px;
+        aspect-ratio: 1/1;
+    }
+}
+
+.logo_skill_8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #323232;   
+    
+    .react_log{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
 
 .logo_skill_9{
     display: flex;
