@@ -157,52 +157,39 @@ h1{
 
 
 /* area content profile */
-.cointainer_content{
+.cointainer_content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap; 
     align-items: center;
-    row-gap: 1rem;
-    column-gap: 15rem;
+    justify-content: center; 
+    gap: 5rem; 
     margin-top: 4.5rem;
+    width: 100%;
+}
+
+.profile_content {
+    flex: 0 1 260px;
+    display: flex;
     justify-content: center;
 }
 
-
-.profile_content{
-    /* background-color: #212655; */
+.img_profile {
     width: 100%;
-    height: 100%;
-    max-width:  260px ;
-    max-height: 260px;
-    margin: 0;
-    justify-content: center;
-    margin-bottom: 2rem;
+    height: auto; 
+    max-width: 260px;
+    border-radius: 20px;
 }
 
-.img_profile{
-    width: 100%;
-    height: 100%;
-    max-width:  260px ;
-    max-height: 260px;
-}
-
-.profile_content_desc{
+.profile_content_desc {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1.5rem;
-    width: 100%;
-    height: 100%;
-    max-width: 360px;
-    max-height: 360px;
-    margin: auto;
-    margin-left: 0;
-    /* padding-right: 15rem; */
-    align-items: center;
+    flex: 1 1 360px; 
+    max-width: 600px;
+    align-items: flex-start;
 }
-
 
 .simbol_desc{
     width: 45px;
@@ -224,18 +211,69 @@ h1{
 
 /* skill desc area */
 .skill_desc_countainer{
- /* beleum diisi */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} 
+
+.countainer_skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly; 
+    gap: 4rem;
+    width: 100%;
 }
+
+.skill_countent{
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+    border-radius: 20px;
+    background: #FBFBFB;
+    box-shadow: -10px 10px 0 0 rgba(0, 0, 0, 0.11);
+    padding: 2%;
+}
+
 
 .h2_skill{
     /* font-size: 2rem; */
     color: #32323289;
     margin-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5rem;
 }
 
-.line_span{
+.h3_skill{
+    color: #212655;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.line{
     background-color: #32323289;;
     flex: 1 1 0%;
-    height: 2px;
+    height: 1px;
+    /* border: solid #32323289 0.5px ; */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .profile_content_desc {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    
+    .praft_desc h1 {
+        font-size: 12vw; 
+    }
 }
