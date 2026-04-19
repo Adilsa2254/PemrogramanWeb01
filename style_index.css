@@ -4,6 +4,11 @@ h1{
     font-weight: 700px;
 }
 
+p{
+    font-family: sans-serif;
+    color: #323232;
+}
+
 /* countainer main area */
 .main_page{
     margin-top: 2rem;
@@ -246,14 +251,36 @@ h1{
 }
 
 .h3_skill{
-    color: #212655;
+    color: #323232;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    margin-bottom: 4px;
 }
 
-.line{
-    background-color: #32323289;;
-    flex: 1 1 0%;
+.line_skill1{
+    background-color: #212655;;
+    width: 100%;
+    max-width: 4rem;
+    height: 1px;
+    /* border: solid #32323289 0.5px ; */
+}
+.line_skill2{
+    background-color: #EEA557;;
+    width: 100%;
+    max-width: 2rem;
+    height: 1px;
+    /* border: solid #32323289 0.5px ; */
+}
+.line_skill3{
+    background-color: #FF7D7D;;
+    width: 100%;
+    max-width: 3.5rem;
+    height: 1px;
+    /* border: solid #32323289 0.5px ; */
+}
+.line_skill4{
+    background-color: #FF7D7D;;
+    width: 100%;
+    max-width: 1rem;
     height: 1px;
     /* border: solid #32323289 0.5px ; */
 }
@@ -263,9 +290,7 @@ h1{
 
 
 
-
-
-
+/* coba coba(belum paham) untuk penyesuaian dvice hp area*/
 @media (max-width: 768px) {
     .profile_content_desc {
         flex-direction: column; 
