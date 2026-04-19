@@ -610,7 +610,7 @@ p{
 }
 
 .content_project_dsg{
-display: flex;
+    display: flex;  
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -684,6 +684,62 @@ display: flex;
 }
 
 
+.content_project_dsg2{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    width: 100%;
+    align-content: center;
+}
+
+.content_project_dsg_box2{
+    height: auto;
+    background: #FBFBFB;
+    padding: 1%;
+    gap: 1rem;
+    margin-left: 2.5rem;
+
+    .Prg_dsg_02{
+        display: flex;
+        align-items: center;
+        padding-left: 4%;
+        width: 308px;
+        height: 296px;
+        aspect-ratio: 77/74;
+        border-radius: 28px;
+        background: #FFF;
+        box-shadow: -4px 4px 4px 0 rgba(33, 38, 85, 0.20);
+    }
+
+    .h4_project2{ 
+    /* margin-bottom: 5px; */
+    color: #4e4e4e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.box_content_prg_desg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+    width: 100%;
+    max-width: 308px;
+    height: auto;
+    aspect-ratio: 307/98;
+    border-radius: 25px;
+    /* border: 2px solid #EEA557; */
+    background: #FBFBFB;
+    box-shadow: -4px 4px 4px 0 rgba(33, 38, 85, 0.20);
+    }
+
+}
+
+
 
 
 /* coba coba(belum paham) untuk penyesuaian dvice hp area*/
@@ -706,6 +762,14 @@ display: flex;
     max-height: 440px;
     margin-bottom: 10rem;
     } 
+
+    .content_project_dsg_box2{
+    height: auto;
+    background: #FBFBFB;
+    padding: 1%;
+    gap: 1rem;
+    margin-left: 0rem;
+    }
 }
 
 @media(max-width:1028px ){
