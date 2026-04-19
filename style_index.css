@@ -657,12 +657,30 @@ display: flex;
     margin: 1%;
     width: 100%;
     max-width: 308px;
-    height: 98px;
+    height: auto;
     aspect-ratio: 307/98;
     border-radius: 25px;
     border: 2px solid #EEA557;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #EEA557;
+}
+
+.h4_project{
+    padding-left: 1rem; 
+    margin-bottom: 5px;
+    color: #EEA557;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p_project{
+    padding-left: 1rem;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #8c8c8c;
+    font-size: small;
+}
+.a_style_link_project{
+    color: #8c8c8c;
+    text-decoration: none;
 }
 
 
@@ -701,3 +719,4 @@ display: flex;
     margin-bottom: 5rem;
     } 
 }
+
