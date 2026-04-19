@@ -118,7 +118,14 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
+.button_Profile:hover {
+    transform: scale(1.050) rotate(2.5deg);
+    transition-duration: 0.1s;
+}
+
 
 .button_edu{
     width: 71px;
@@ -131,6 +138,10 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.button_edu:hover {
+    transform: scale(1.050) rotate(2.5deg);
+    transition-duration: 0.1s;
 }
 
 .button_form{
@@ -145,6 +156,11 @@ p{
     align-items: center;
     justify-content: center;
 }
+.button_form:hover {
+    transform: scale(1.050) rotate(2.5deg);
+    transition-duration: 0.1s;
+}
+
 
 .button_tugas{
     width: 76px;
@@ -158,7 +174,10 @@ p{
     align-items: center;
     justify-content: center;
 }
-
+.button_tugas:hover {
+    transform: scale(1.050) rotate(2.5deg);
+    transition-duration: 0.1s;
+}
 
 
 /* area content profile */
@@ -206,6 +225,19 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.simbol_desc:hover{
+    width: 45px;
+    height: 37px;
+    aspect-ratio: 45/37;
+    border-radius: 9px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.050) rotate(-4.5deg);
+    transition-duration: 0.1s;
 }
 
 .praft_desc{
@@ -326,7 +358,35 @@ p{
         /* flex: 2 2 2 2; */
         aspect-ratio: 1/1;
     }
+
+    
 }
+.logo_skill1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    max-width: 75px;
+    max-height: 54px;
+    aspect-ratio: 5/10;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+
+    .Figma_logo{
+        width: 100%;
+        height:100%;
+        max-width: 51px;
+        max-height: 51px;
+        /* flex: 2 2 2 2; */
+        aspect-ratio: 1/1;
+    }
+}
+
 .logo_skill2{
     display: flex;
     justify-content: center;
@@ -340,6 +400,29 @@ p{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .Ps_logo{
+        width: 34px;
+        height: 33px;
+        flex: 2 2 2 2;
+        aspect-ratio: 34/33;
+    }
+}
+.logo_skill2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    height:500%;
+    max-width: 75px;
+    max-height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .Ps_logo{
         width: 34px;
@@ -370,6 +453,30 @@ p{
         font-size: medium;
     }
 }
+.logo_skill3:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    height:500%;
+    max-width: 75px;
+    max-height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+        
+    .afinity_logo{
+        width: 34px;
+        height: 34px;
+        flex: 2 2 2 2;
+        aspect-ratio: 1/1;
+        font-size: medium;
+    }
+}
 .logo_skill4{
     display: flex;
     justify-content: center;
@@ -388,6 +495,25 @@ p{
         aspect-ratio: 1/1;
     }
 }
+.logo_skill4:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+    .corelDraw_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
 .logo_skill5{
     display: flex;
     justify-content: center;
@@ -399,6 +525,27 @@ p{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .h4_skill{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #323232;
+        margin: 1rem;
+    }
+
+}
+.logo_skill5:hover{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .h4_skill{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -427,7 +574,26 @@ p{
         height: 33px;
         aspect-ratio: 34/33;
     }
+}
+.logo_skill_1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
+    .html_logo{
+        width: 34px;
+        height: 33px;
+        aspect-ratio: 34/33;
+    }
 }
 
 .logo_skill_2{
@@ -447,7 +613,26 @@ p{
         height: 35px;
         aspect-ratio: 1/1;
     }
-    
+}
+.logo_skill_2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+
+    .css_logo{
+        width: 35px;
+        height: 35px;
+        aspect-ratio: 1/1;
+    }
 }
 
 .logo_skill_3{
@@ -461,6 +646,26 @@ p{
     border: 2px solid #323232;
     background: #FF7D7D;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .js_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
+.logo_skill_3:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .js_logo{
         width: 34px;
@@ -487,6 +692,26 @@ p{
         aspect-ratio: 1/1;
     }
 }
+.logo_skill_4:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+
+    .py_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
 
 .logo_skill_5{
     display: flex;
@@ -499,6 +724,26 @@ p{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .mysql_logo{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
+.logo_skill_5:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .mysql_logo{
         width: 34px;
@@ -525,6 +770,26 @@ p{
         aspect-ratio: 37/36;
     }
 }
+.logo_skill_6:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+
+    .C_logo{
+        width: 37px;
+        height: 36px;
+        aspect-ratio: 37/36;
+    }
+}
 
 .logo_skill_7{
     display: flex;
@@ -537,6 +802,26 @@ p{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .java_logo{
+        width: 35px;
+        height: 35px;
+        aspect-ratio: 1/1;
+    }
+}
+.logo_skill_7:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .java_logo{
         width: 35px;
@@ -563,6 +848,26 @@ p{
         aspect-ratio: 1/1;
     }
 }
+.logo_skill_8:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FF7D7D;
+    box-shadow: -5px 5px 0 0 #323232;   
+    transform: scale(1.050);
+    transition-duration: 0.3s;
+
+    .react_log{
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1/1;
+    }
+}
 
 .logo_skill_9{
     display: flex;
@@ -575,6 +880,27 @@ p{
     border: 2px solid #323232;
     background: #FBFBFB;
     box-shadow: -5px 5px 0 0 #323232;
+
+    .h4_skill{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #323232;
+        margin: 1rem;
+    }
+
+}
+.logo_skill_9:hover{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 75px;
+    height: 54px;
+    aspect-ratio: 25/18;
+    border-radius: 12px;
+    border: 2px solid #323232;
+    background: #FBFBFB;
+    box-shadow: -5px 5px 0 0 #323232;
+    transform: scale(1.050);
+    transition-duration: 0.3s;
 
     .h4_skill{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -678,9 +1004,14 @@ p{
     color: #8c8c8c;
     font-size: small;
 }
+
 .a_style_link_project{
     color: #8c8c8c;
     text-decoration: none;
+}
+.a_style_link_project:hover{
+    color: #eea557a2;
+    text-decoration: underline;
 }
 
 
@@ -780,7 +1111,7 @@ display: flex;
     flex-wrap: nowrap;
     height: 100%;
     max-height: 900px;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     } 
 }
 
