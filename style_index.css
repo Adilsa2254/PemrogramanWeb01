@@ -364,6 +364,7 @@ p{
         height: 34px;
         flex: 2 2 2 2;
         aspect-ratio: 1/1;
+        font-size: medium;
     }
 }
 .logo_skill4{
