@@ -8,200 +8,200 @@ Praktikum pertama pada pertemuan di mata kuliah pemrograman web
     oke!!
     ui_index sebelumnya:
     <!-- <!DOCTYPE html> -->
-<!-- <html lang="en">
-<head">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Praktikum Pemrograman Web
-        </title>
-</head>
-<body style="background-color: rgb(234, 229, 250);">
-
-    <div style="display: flex; flex-direction: row; padding-bottom: 5%;">
-        <div>
-            <header> 
-                <h1>Adil Saputra</h1>
-            </header>
+    <!-- <html lang="en">
+    <head">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>
+                Praktikum Pemrograman Web
+            </title>
+    </head>
+    <body style="background-color: rgb(234, 229, 250);">
+    
+        <div style="display: flex; flex-direction: row; padding-bottom: 5%;">
+            <div>
+                <header> 
+                    <h1>Adil Saputra</h1>
+                </header>
+            </div>
+            <div style="justify-content: center; display: flex; align-items: center; padding-left: 700px; gap: 20px;">
+                <nav> 
+                    <a href="pertemuan2/Nav.html">Profile</a>
+                    <a href="pertemuan2/list.html">List</a>
+                    <a href="pertemuan2/port.html">Form</a>
+                    <a href="page_pengerjaan_tugas/Homework_page.html">Tugas_page</a>
+                </nav>
+            </div>
         </div>
-        <div style="justify-content: center; display: flex; align-items: center; padding-left: 700px; gap: 20px;">
-            <nav> 
-                <a href="pertemuan2/Nav.html">Profile</a>
-                <a href="pertemuan2/list.html">List</a>
-                <a href="pertemuan2/port.html">Form</a>
-                <a href="page_pengerjaan_tugas/Homework_page.html">Tugas_page</a>
-            </nav>
+    
+        <div style="position: relative; ">
+            <div style="display: flex; justify-content: center;">
+                <img src="https://i.pinimg.com/1200x/29/df/ca/29dfca0073d509c79f1a57e57d5b498e.jpg" width="500px" height="500px" alt="Lemmon background" style="border-radius: 15px;
+                transform: rotate(4.700deg); flex-shrink: 0; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); opacity: 20%;">
+            </div>
         </div>
-    </div>
-
-    <div style="position: relative; ">
+        <h1 style="color: rgb(62, 62, 62); font-weight: bold; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 30px; padding-top: 0.5%;">
+                Helo👋! I'am Adil Saputra
+        </h1>
         <div style="display: flex; justify-content: center;">
-            <img src="https://i.pinimg.com/1200x/29/df/ca/29dfca0073d509c79f1a57e57d5b498e.jpg" width="500px" height="500px" alt="Lemmon background" style="border-radius: 15px;
-            transform: rotate(4.700deg); flex-shrink: 0; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); opacity: 20%;">
+        <table style="text-align: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(84, 84, 84);">
+            <tr>
+                <th>
+                    Jurusan
+                </th>
+                <th> : </th>
+                <th>
+                    Informatika
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Nim
+                </th>
+                <th> : </th>
+                <th>
+                    241110038
+                </th>
+            </tr>
+        </table>
         </div>
-    </div>
-    <h1 style="color: rgb(62, 62, 62); font-weight: bold; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 30px; padding-top: 0.5%;">
-            Helo👋! I'am Adil Saputra
-    </h1>
-    <div style="display: flex; justify-content: center;">
-    <table style="text-align: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(84, 84, 84);">
-        <tr>
-            <th>
-                Jurusan
-            </th>
-            <th> : </th>
-            <th>
-                Informatika
-            </th>
-        </tr>
-        <tr>
-            <th>
-                Nim
-            </th>
-            <th> : </th>
-            <th>
-                241110038
-            </th>
-        </tr>
-    </table>
-    </div>
-
-    <div style="justify-content: center; display: flex;">
-        <div style="background-color: rgba(255, 202, 87, 0.584); margin-top: 120px; margin-bottom: 10px; margin-left: 2%; margin-right: 1%; padding: 2%; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); box-shadow: -14px -14px 0 0 rgba(255, 189, 119, 0.25), -6px -6px 0 0 rgba(255, 189, 119, 0.25);
-            border-radius: 10px; width:1000px;">
-            <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">TUGAS 01</h2>
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> Memasukan minimal 10 element pada website dengan menggunakan html dengan menggunakan referensi dari 
-                <a href="https://www.w3schools.com/tags/tag_a.asp"> Web3School.com </a>
-            </p>
+    
+        <div style="justify-content: center; display: flex;">
+            <div style="background-color: rgba(255, 202, 87, 0.584); margin-top: 120px; margin-bottom: 10px; margin-left: 2%; margin-right: 1%; padding: 2%; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); box-shadow: -14px -14px 0 0 rgba(255, 189, 119, 0.25), -6px -6px 0 0 rgba(255, 189, 119, 0.25);
+                border-radius: 10px; width:1000px;">
+                <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">TUGAS 01</h2>
+                <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> Memasukan minimal 10 element pada website dengan menggunakan html dengan menggunakan referensi dari 
+                    <a href="https://www.w3schools.com/tags/tag_a.asp"> Web3School.com </a>
+                </p>
+            </div>
         </div>
-    </div>
-    <div style="justify-content: center; display: flex;">
-        <div style="background-color: rgba(255, 202, 87, 0.584); margin: 5%; padding: 2%; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); box-shadow: -14px -14px 0 0 rgba(255, 189, 119, 0.25), -6px -6px 0 0 rgba(255, 189, 119, 0.25);
-            border-radius: 10px; width:1000px;">
-            <table>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        1. Button
-                    </h2>
-                    <div style="padding: auto;">
-                        <p>It Work Btw :) </p>
-                        <button type="button" onclick="window.location.href='https://youtu.be/NO_cVedXdmM?si=AnXAFxn75mfHUTPE'; "> CLIK HERE</button>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        2. Music/audio
-                    </h2>
-                    <div style="padding: auto;">
-                        <audio controls>
-                            <source src="Resorce/Always.mp3">
-                        </audio> 
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        3. Video
-                    </h2>
-                    <div style="padding: auto;">
-                        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                            dengan < iframe > dan menggunakan embed otomatis langsung dari youtube, sebenarnya bisa dari local, tetapi kita juga dapat menggunakan hal seperti ini
-                            untuk menunjukan esbuah Video pada web kita!</p>
-                        <iframe width="380" height="210" style="border-radius: 15px; padding: auto;" src="https://www.youtube.com/embed/p_B_ItLJ-cc?si=G2WbjhaALxv3j5EB" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" \
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        4. Input Bar
-                    </h2>
-                    <div style="padding: auto;">
-                        <form action="index.html">
-                            <label for="fname">First Name:</label>
-                            <input type="text" id="fname" name="fname"><br><br>
-                            <label for="lname">Last Name:</label>
-                            <input type="text" id="lname" name="lname"><br><br>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        5. Radio Button
-                    </h2>
-                    <div style="padding: auto;">
-                            <input type="radio" id="pilihan1" name="Pilihan" value="pilihan1">
-                            <label for="pilihan1">Pilihan Pertama</label><br>
-                            <input type="radio" id="pilihan2" name="Pilihan" value="pilihan2">
-                            <label for="pilihan2">Pilihan Kedua</label><br>
-                            <input type="radio" id="pilihan3" name="Pilihan" value="pilihan3">
-                            <label for="pilihan3">Pilihan Ketiga</label><br><br>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        6. Text Area 
-                    </h2>
-                    <div style="padding: auto;">
-                        <textarea rows="4" cols="50" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Disini Kita dapat menulis pada area ini.
-                        </textarea>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        7. Select Option
-                    </h2>
-                    <div style="padding: auto;">
-                            <select name="Area_pilihan" id="Pilihan">
-                            <option value="Pilihan01">Select Pilihan 1</option>
-                            <option value="Pilihan02">Select Pilihan 2</option>
-                            <option value="Pilihan03">Select Pilihan 3</option>
-                            <option value="PIlihan04">Select Pilihan 4</option>
-                            </select>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        8. Dot text
-                    </h2>
-                    <div style="padding: auto;">
-                        <ul>
-                            <li>Pisang</li>
-                            <li>Nanas</li>
-                            <li>Semangka</li>
-                        </ul>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        9. Footer
-                    </h2>
-                    <div style="padding: auto;">
-                        <footer>
-                            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><i>Universitas Mercu Buana Yogyakarta</i></p>
-                            <p><a href="https://www.instagram.com/umbyogyakarta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@umbyogyakarta</a></p>
-                        </footer>
-                    </div>
-                </tr>
-                <tr>
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                        10. iframe
-                    </h2>
-                    <div style="padding: auto;">
-                        <iframe data-testid="embed-iframe" style="border-radius:12px; margin: 2%;" src="https://open.spotify.com/embed/track/3SxSrUogj4LpAkLKXeTtTQ?utm_source=generator&theme=0" width="352" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    </div>
-                </tr>
-            </table>
+        <div style="justify-content: center; display: flex;">
+            <div style="background-color: rgba(255, 202, 87, 0.584); margin: 5%; padding: 2%; box-shadow: -6px -4px 7.7px 0 rgba(251, 219, 36, 0.199); box-shadow: -14px -14px 0 0 rgba(255, 189, 119, 0.25), -6px -6px 0 0 rgba(255, 189, 119, 0.25);
+                border-radius: 10px; width:1000px;">
+                <table>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            1. Button
+                        </h2>
+                        <div style="padding: auto;">
+                            <p>It Work Btw :) </p>
+                            <button type="button" onclick="window.location.href='https://youtu.be/NO_cVedXdmM?si=AnXAFxn75mfHUTPE'; "> CLIK HERE</button>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            2. Music/audio
+                        </h2>
+                        <div style="padding: auto;">
+                            <audio controls>
+                                <source src="Resorce/Always.mp3">
+                            </audio> 
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            3. Video
+                        </h2>
+                        <div style="padding: auto;">
+                            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                                dengan < iframe > dan menggunakan embed otomatis langsung dari youtube, sebenarnya bisa dari local, tetapi kita juga dapat menggunakan hal seperti ini
+                                untuk menunjukan esbuah Video pada web kita!</p>
+                            <iframe width="380" height="210" style="border-radius: 15px; padding: auto;" src="https://www.youtube.com/embed/p_B_ItLJ-cc?si=G2WbjhaALxv3j5EB" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" \
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            4. Input Bar
+                        </h2>
+                        <div style="padding: auto;">
+                            <form action="index.html">
+                                <label for="fname">First Name:</label>
+                                <input type="text" id="fname" name="fname"><br><br>
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname"><br><br>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            5. Radio Button
+                        </h2>
+                        <div style="padding: auto;">
+                                <input type="radio" id="pilihan1" name="Pilihan" value="pilihan1">
+                                <label for="pilihan1">Pilihan Pertama</label><br>
+                                <input type="radio" id="pilihan2" name="Pilihan" value="pilihan2">
+                                <label for="pilihan2">Pilihan Kedua</label><br>
+                                <input type="radio" id="pilihan3" name="Pilihan" value="pilihan3">
+                                <label for="pilihan3">Pilihan Ketiga</label><br><br>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            6. Text Area 
+                        </h2>
+                        <div style="padding: auto;">
+                            <textarea rows="4" cols="50" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Disini Kita dapat menulis pada area ini.
+                            </textarea>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            7. Select Option
+                        </h2>
+                        <div style="padding: auto;">
+                                <select name="Area_pilihan" id="Pilihan">
+                                <option value="Pilihan01">Select Pilihan 1</option>
+                                <option value="Pilihan02">Select Pilihan 2</option>
+                                <option value="Pilihan03">Select Pilihan 3</option>
+                                <option value="PIlihan04">Select Pilihan 4</option>
+                                </select>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            8. Dot text
+                        </h2>
+                        <div style="padding: auto;">
+                            <ul>
+                                <li>Pisang</li>
+                                <li>Nanas</li>
+                                <li>Semangka</li>
+                            </ul>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            9. Footer
+                        </h2>
+                        <div style="padding: auto;">
+                            <footer>
+                                <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><i>Universitas Mercu Buana Yogyakarta</i></p>
+                                <p><a href="https://www.instagram.com/umbyogyakarta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@umbyogyakarta</a></p>
+                            </footer>
+                        </div>
+                    </tr>
+                    <tr>
+                        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            10. iframe
+                        </h2>
+                        <div style="padding: auto;">
+                            <iframe data-testid="embed-iframe" style="border-radius:12px; margin: 2%;" src="https://open.spotify.com/embed/track/3SxSrUogj4LpAkLKXeTtTQ?utm_source=generator&theme=0" width="352" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </tr>
+                </table>
+            </div>
         </div>
-    </div>
-    <div style="display: flex; flex-direction: row;">
-        <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
-        <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
-        <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
-    </div>
-</body>
-
-</html> -->
+        <div style="display: flex; flex-direction: row;">
+            <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
+            <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
+            <img src="/Resorce/The New York City always take my breath away.jpg" alt="">
+        </div>
+    </body>
+    
+    </html> -->
 
