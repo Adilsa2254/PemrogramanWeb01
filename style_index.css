@@ -1107,7 +1107,6 @@ display: flex;
     justify-content: start;
     width: 100%;
     margin-left: 1rem;
-    
 }
 
 .label_box{
@@ -1130,7 +1129,7 @@ display: flex;
     justify-content: center;
     margin-top: 1rem;
     transform: scale(0.90);
-    transition: 0.6s;
+    transition: 0.3s;
 }
 
 .submit_b{
@@ -1195,6 +1194,51 @@ display: flex;
     letter-spacing: 0.8px;
 }
 
+
+.label_item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 43px;
+    aspect-ratio: 106/43;
+    border-radius: 12px;
+    border: 2px solid #212655;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #212655;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact_h1{
+    color: #EEA557;
+    text-shadow: 0 4px 4px rgba(238, 165, 87, 0.25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+}
+.contact_text_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project_090{
+    height: 100%;
+    max-height: 1300px;
+}
+
+
+
+
+
 /* coba coba(belum paham) untuk penyesuaian dvice hp area*/
 @media (max-width: 768px) {
     .profile_content_desc {
@@ -1223,6 +1267,81 @@ display: flex;
     gap: 1rem;
     margin-left: 0rem;
     }
+    .project_090{
+    height: 100%;
+    max-height: 2070px;
+    margin-bottom: 1rem;
+    }
+    .contact_h1{
+        margin-bottom: 0.2rem;
+    }
+    .form_box{
+        border-radius: 31px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        gap: 1rem;
+    }
+    
+    .input_box{
+        width: 170px;
+        border-radius: 12px;
+        border: 3px solid #EEA557;
+        background: #FBFBFB;
+        box-shadow: -5px 5px 0 0 #EEA557;
+    }
+
+    .label_item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 25px;
+        aspect-ratio: 81/43;
+        border-radius: 8px;
+        border: 2px solid #323232;
+        background: #EEA557;
+        box-shadow: -5px 5px 0 0 #323232;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #323232;
+        /* font-weight: 600; */
+        line-height: normal;
+        letter-spacing: 0.4px;
+        font-size: smaller;
+    }
+    .label_item1{
+        width: 45px;
+        height: 25px;
+        aspect-ratio: 81/43;
+        font-size: smaller;
+        /* font-weight: 600; */
+        border-radius: 8px;
+        letter-spacing: 0.4px;
+    }
+    .label_item3{
+        width: 70px;
+        height: 25px;
+        aspect-ratio: 81/43;
+        border-radius: 8px;
+        color: #323232;
+        font-size: smaller;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        margin-bottom: 1.5rem;
+    } 
+    .submit_b{
+        width: 80px;
+        height: 33px;
+        aspect-ratio: 114/43;
+        border-radius: 8px;
+        border: 2px solid #323232;
+        background: #EEA557;
+        box-shadow: -5px 5px 0 0 #323232;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: smaller;
+        font-weight: 700;
+        color: #FAFAFA;
+        letter-spacing: 0.4px;
+    }     
 }
 
 @media(max-width:1028px ){
@@ -1235,4 +1354,11 @@ display: flex;
     max-height: 900px;
     margin-bottom: 2rem;
     } 
+}
+
+@media(max-width:1132px){
+    .project_090{
+    height: 100%;
+    max-height: 2100px;
+    }
 }
