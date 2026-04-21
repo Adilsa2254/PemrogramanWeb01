@@ -6,8 +6,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 4rem;
+    /* z-index: 9999; */
 }
-
 
 .box_section{
     width: 587px;
@@ -21,7 +22,7 @@
     flex-wrap: wrap;
     padding-top: 0px;
     justify-content: start;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .section{
@@ -71,7 +72,7 @@
     
         .content_icon2{
             position: absolute;
-            z-index: 1;
+            z-index: 10;
             width: 26px;
             height: 26px;
             border-radius: 4.667px;
@@ -82,7 +83,7 @@
         
         .content_icon2_1{
             position: absolute;
-            z-index: 2;
+            z-index: 11;
             width: 26px;
             height: 26px;
             border-radius: 4.667px;
@@ -115,8 +116,189 @@
     align-items: center;
     align-content: center;
     gap: 2rem;
+    padding-bottom: 2rem;
 }
 
+.h1_profile{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBFBFB;
+    text-shadow: -3px 1px 0 #323232;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 40px;
+    margin-bottom: 0.10px;
+    rotate: -1.5deg;
+}
+
+.photo_profil{
+    width: 207px;
+    height: 213px;
+    border-radius: 149.5px;
+    border: 8px solid #FFF;
+    box-shadow: -5px 5px 0 0 #323232, -5px 5px 9px 0 rgba(50, 50, 50, 0.50);
+    margin-bottom: 1rem;
+}
+
+.information_photo_profil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: auto;
+    height: auto;
+
+    .box_info1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: auto;
+        height: 40px;
+        border-radius: 15px;
+        border: 3px solid #323232;
+        background: #FF7D7D;
+        box-shadow: -5px 5px 0 0 #323232;
+        gap: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+        .icon_box_info1{
+            width: 32px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+
+            .content_icon_box_info1_1{
+                width: 21px;
+                height: 2.953px;
+                background: #FBFBFB;
+                rotate: 136.33deg;
+                position: absolute;
+            }
+            .content_icon_box_info2_2{
+                width: 21px;
+                height: 2.953px;
+                background: #FBFBFB;
+                rotate: -136.33deg;
+                position: absolute;
+            }
+        }
+
+
+    }
+
+
+    .box_info2{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        align-content: center;
+        width: 140px;
+        height: 40px;
+        border-radius: 15px;
+        border: 3px solid #323232;
+        background: #FBFBFB;
+        box-shadow: -5px 5px 0 0 #323232;
+        gap: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+        .icon_box_info2{
+            width: 32px;
+            height: 30px;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            display: flex;
+
+            .content_icon_box_info2_1{
+                position: absolute;
+                z-index: 10;
+                width: 16px;
+                height: 16px;
+                border-radius: 4.667px;
+                border: 2px solid #323232;
+                margin-top: 4.5px;
+                margin-right: 8px;
+            }
+            
+            .content_icon_box_info2_2{
+                position: absolute;
+                z-index: 11;
+                width: 16px;
+                height: 16px;
+                border-radius: 4.667px;
+                border: 2px solid #323232;
+                background: #EEA557;
+                margin-bottom: 5px;
+                margin-left: 6px;   
+            }
+            
+        }
+
+    }
+
+
+    .h3_porfile_box_info{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 700;
+        color:  #323232;
+    }
+
+}
+
+.box_info1:hover{
+    transition: 0.200s;
+    scale: 1.1;
+    rotate: 1.2deg;
+}
+.box_info2:hover{
+    transition: 0.200s;
+    scale: 1.1;
+    rotate: -1.2deg;
+}
+
+.section_naba{
+    margin: 5rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    .navbar_page{
+        gap: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+
+        .button1{
+            
+        }
+        .button2{
+
+        }
+        .button3{
+
+        }
+        .button4{
+
+        }
+    }
+}
+
+
+/* .decor_1{
+    position: relative;
+    z-index: 1;
+    top: 1rem;
+    left: 1rem;
+    right: 20px;
+} */
 
 /* ukuran handphone */
 @media(max-width: 768px){
