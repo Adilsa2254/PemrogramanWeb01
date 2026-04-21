@@ -23,6 +23,11 @@
     padding-top: 0px;
     justify-content: start;
     gap: 2rem;
+    transition: all 0.3s ease;
+}
+.box_section:hover{
+    box-shadow: -9px 9px 0 0 #323232, 0 8px 18px 0 rgba(0, 0, 0, 0.38);
+    rotate: -1.2deg;
 }
 
 .section{
@@ -301,6 +306,9 @@
 } */
 
 /* ukuran handphone */
-@media(max-width: 768px){
-
+@media(max-width: 426px){
+    .box_section{
+        transform: scale(0.5);
+        transform-origin: 0.5rem 1rem;
+    }
 }
