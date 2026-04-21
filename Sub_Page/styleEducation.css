@@ -8,6 +8,7 @@
     justify-content: center;
     width: auto;
     height: auto;
+    z-index: 9999;
 }
 
 .h1_edu{
@@ -131,4 +132,54 @@
         /* right: 4rem; */
         left: 20px;
     }   
+}
+
+
+.star_1{
+    z-index: 1;
+    top: 11rem;
+    right: 6rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 50%;
+}
+.star_2{
+    z-index: 2;
+    top: 20rem;
+    right: 6rem;
+    rotate: 70deg;
+    position: absolute;
+    opacity: 50%;
+}
+.star_3{
+    z-index: 3;
+    top: 19rem;
+    right: 35rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 50%;
+}
+.star_4{
+    z-index: 4;
+    top: 20rem;
+    left: 8rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 50%;
+}
+.star_5{
+    z-index: 5;
+    top: 30rem;
+    left: 16rem;
+    rotate: 70deg;
+    position: absolute;
+    opacity: 50%;
+}
+.star_6{
+    z-index: 6;
+    top: 12rem;
+    left: 20rem;
+    rotate: 50deg;
+    position: absolute;
+    opacity: 50%;
 }

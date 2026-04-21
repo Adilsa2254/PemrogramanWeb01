@@ -1,0 +1,124 @@
+.main_page{
+    margin: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box_section{
+    width: 587px;
+    height: auto;
+    border-radius: 31px;
+    border: 4px solid #323232;
+    background: #EEA557;
+    box-shadow: -5px 5px 0 0 #323232, 0 4px 14px 0 rgba(0, 0, 0, 0.38);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.section{
+    width: 587px;
+    height: 78px;
+    border-radius: 24.9px 24.9px 0 0;
+    background: #323232;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: right;
+    gap:2rem;
+
+    .icon_1{
+        width: 32px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        
+        .content_icon1{
+            width: 31px;
+            height: 2.953px;
+            background: #FBFBFB;
+            rotate: 136.33deg;
+            position: absolute;
+        }
+        .content_icon1_2{
+            width: 31px;
+            height: 2.953px;
+            background: #FBFBFB;
+            rotate: -136.33deg;
+            position: absolute;
+        }
+    }
+
+    .icon_2{
+        width: 32px;
+        height: 30px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: flex;
+    
+        .content_icon2{
+            position: absolute;
+            z-index: 1;
+            width: 26px;
+            height: 26px;
+            border-radius: 4.667px;
+            border: 2px solid #FBFBFB;
+            margin-top: 5px;
+            margin-right: 8px;
+        }
+        
+        .content_icon2_1{
+            position: absolute;
+            z-index: 2;
+            width: 26px;
+            height: 26px;
+            border-radius: 4.667px;
+            border: 2px solid #323232;
+            background: #EEA557;
+            margin-bottom: 5px;
+            margin-left: 8px;   
+        }
+        
+    }
+    .icon_3{
+        width: 32px;
+        height: 30px;
+        justify-content: center;
+        align-content: center;
+        
+        .content_icon3{
+            width: 31px;
+            height: 2.953px;
+            background: #FBFBFB;
+        }
+    }
+}
+
+.container_content_section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+
+/* ukuran handphone */
+@media(max-width: 768px){
+
+}

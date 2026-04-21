@@ -21,6 +21,7 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
+    z-index: 1;
 }
 
 
@@ -1341,7 +1342,7 @@ display: flex;
         font-weight: 700;
         color: #FAFAFA;
         letter-spacing: 0.4px;
-    }     
+    }    
 }
 
 @media(max-width:1028px ){
@@ -1361,4 +1362,109 @@ display: flex;
     height: 100%;
     max-height: 2100px;
     }
+}
+
+
+
+
+@media(max-width:375px){
+    .star_1{
+        z-index: 2;
+        top: 18rem;
+        right: 4rem;
+        rotate: 90deg;
+        position: absolute;
+        opacity: 75%;
+    }
+    .star_2{
+        z-index: 3;
+        top: 15rem;
+        right: 6rem;
+        rotate: 60deg;
+        position: absolute;
+        opacity: 75%;
+    }
+    .star_3{
+        z-index: 4;
+        top: 18rem;
+        right: 35rem;
+        rotate: 90deg;
+        position: absolute;
+        opacity: 75%;
+    }
+    .star_4{
+        z-index: 5;
+        top: 20rem;
+        left: 5rem;
+        rotate: 90deg;
+        position: absolute;
+        opacity: 75%;
+    }
+    .star_5{
+        z-index: 6;
+        top: 39rem;
+        left: 18rem;
+        rotate: 70deg;
+        position: absolute;
+        opacity: 75%;
+    }
+    .star_6{
+        z-index: 7;
+        top: 12rem;
+        left: 20rem;
+        rotate: 50deg;
+        position: absolute;
+        opacity: 75%;
+    }
+
+}
+
+
+.star_1{
+    z-index: 2;
+    top: 11rem;
+    right: 6rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 75%;
+}
+.star_2{
+    z-index: 3;
+    top: 20rem;
+    right: 6rem;
+    rotate: 60deg;
+    position: absolute;
+    opacity: 75%;
+}
+.star_3{
+    z-index: 4;
+    top: 16rem;
+    right: 35rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 75%;
+}
+.star_4{
+    z-index: 5;
+    top: 20rem;
+    left: 5rem;
+    rotate: 90deg;
+    position: absolute;
+    opacity: 75%;
+}
+.star_5{
+    z-index: 6;
+    top: 39rem;
+    left: 18rem;
+    rotate: 70deg;
+    position: absolute;
+    opacity: 75%;
+}
+.star_6{
+    z-index: 7;
+    top: 12rem;
+    left: 20rem;
+    rotate: 50deg;
+    position: absolute;
+    opacity: 75%;
 }
