@@ -1,5 +1,9 @@
 body{
     margin-top: 0px;
+    background-image: url(Resource/bg_img.png);
+    background-repeat: no-repeat;        
+    background-size: cover;              
+    background-position: center;
 }
 
 .parent_box_atas{
@@ -29,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-    /* z-index: 9999; */
+    z-index: 1;
 }
 
 /* .countainer_logo_home{
@@ -411,6 +415,61 @@ body{
     }
 
 }
+
+.parent_countainer_about_me{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        color: #212655;
+        margin-bottom: 1rem;
+        background-color: #FBFBFB;
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        padding: 0.3rem 2rem 0.5rem 2rem;
+        
+        transition: all ease-in-out 0.2s;
+    }
+    h1:hover{
+        box-shadow: -5px 5px 0 0 #323232;
+        /* border: solid #323232a8 2px; */
+    }
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: #323232;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        /* justify-content: center; */
+        text-align: center;
+        width:  600px;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+}
+
+.decor1{
+    z-index: 0;
+    top: 12rem;
+    left: 20rem;
+    rotate: 50deg;
+    position: absolute;
+    /* opacity: 75%; */
+}
+
 
 
 /* ukuran handphone */
