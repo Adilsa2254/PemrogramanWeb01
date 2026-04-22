@@ -23,7 +23,6 @@ body{
     }
 }
 
-
 .main_page{
     margin: 2rem;
     height: auto;
@@ -424,6 +423,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 2rem;
     
 
     h1{
@@ -461,14 +461,14 @@ body{
     }
 }
 
-.decor1{
+/* .decor1{
     z-index: 0;
     top: 12rem;
     left: 20rem;
     rotate: 50deg;
     position: absolute;
     /* opacity: 75%; */
-}
+/* } */
 
 
 
