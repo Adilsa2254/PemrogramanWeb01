@@ -1,9 +1,9 @@
 body{
     margin-top: 0px;
-    background-image: url(Resource/bg_img.png);
+    /* background-image: url(Resource/bg_img.png);
     background-repeat: no-repeat;        
     background-size: cover;              
-    background-position: center;
+    background-position: center; */
 }
 
 .parent_box_atas{
@@ -472,6 +472,8 @@ body{
 
 
 
+
+
 /* ukuran handphone */
 @media(max-width: 426px){
     .main_page{
@@ -491,3 +493,63 @@ body{
         margin-right: 0rem;
     }
 }
+
+
+/* .box-card { */
+        /* margin: 100px auto; */
+        /* margin-top: 10rem; */
+        /* width: 90%; */
+        /* border: 2px solid red; */
+        /* display: flex; */
+        /* overflow: hidden; */
+        /* gap: 0; */
+/*  */
+    /* } */
+    /* .box-card::-webkit-scrollbar { */
+        /* display: none; */
+    /* } */
+    /* .group-card { */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* gap: 1em; */
+        /* animation: spin 10s infinite linear; */
+        /* padding-right: 1em; */
+        /* flex-shrink: 0; */
+    /* } */
+    /* .card { */
+        /* flex: 0 0 5em; */
+        /* height: 5em; */
+        /* padding: 1em; */
+        /* background: blue; */
+        /* font-size: 3rem; */
+        /* border: .2em; */
+        /* border-radius: 10%; */
+        /* text-align: center; */
+        /* align-content: center; */
+        /* transition: all ease-in-out 0.4s; */
+        /* filter: grayscale(90%); */
+        /* opacity: 90%; */
+    /* } */
+    /* .box-card:hover .group-card { */
+        /* animation-play-state: paused; */
+    /* } */
+    /*  */
+    /* @keyframes spin { */
+        /* from { */
+            /* transform: translateX(0); */
+        /* } */
+        /* to { */
+            /* transform: translateX(-100%);  */
+        /* } */
+        /*  */
+    /* } */
+    /*  */
+    /* .card:hover{ */
+        /* transform: scale(0.990); */
+        /* filter: grayscale(0); */
+        /* opacity: 100%; */
+/* } */
+
+
+
