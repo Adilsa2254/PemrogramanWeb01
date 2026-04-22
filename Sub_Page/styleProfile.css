@@ -1,3 +1,25 @@
+body{
+    margin-top: 0px;
+}
+
+.parent_box_atas{
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    
+    .box_atas{
+        margin-top: 0rem;
+        width: 555px;
+        height: 26px;
+        border-radius: 0 0 100px 100px;
+        border: 1px solid #000;
+        background: #EEA557;
+        box-shadow: 0 6px 0 0 #323232;
+    }
+}
+
+
 .main_page{
     margin: 2rem;
     height: auto;
@@ -6,9 +28,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
     /* z-index: 9999; */
 }
+
+/* .countainer_logo_home{
+    margin-bottom: 3rem;
+    .image_logo_home{
+        border-radius:50%;
+        scale: 1;
+        /* border-radius: 12px; */
+        /* border: 2px solid #212655;
+        background: #FF7D7D;
+        box-shadow: -5px 5px 0 0 #212655;
+
+    } */
+/* } */ 
 
 .box_section{
     width: 587px;
@@ -127,13 +162,13 @@
 .h1_profile{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #FBFBFB;
-    text-shadow: -3px 1px 0 #323232;
+    text-shadow: -4px 3px 0 #323232;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     font-size: 40px;
     margin-bottom: 0.10px;
-    rotate: -1.5deg;
+    /* rotate: -1.5deg; */
 }
 
 .photo_profil{
@@ -143,6 +178,11 @@
     border: 8px solid #FFF;
     box-shadow: -5px 5px 0 0 #323232, -5px 5px 9px 0 rgba(50, 50, 50, 0.50);
     margin-bottom: 1rem;
+    filter: grayscale(20%);
+    transition: all ease-in-out 0.2s;
+}
+.photo_profil:hover{
+    filter: grayscale(0%);
 }
 
 .information_photo_profil{
@@ -167,7 +207,9 @@
         gap: 0.5rem;
         padding-right: 1rem;
         padding-left: 1rem;
-
+        transition: all ease-in-out 0.2s;
+        
+        
         .icon_box_info1{
             width: 32px;
             height: 30px;
@@ -175,7 +217,7 @@
             justify-content: center;
             align-content: center;
             align-items: center;
-
+            
             .content_icon_box_info1_1{
                 width: 21px;
                 height: 2.953px;
@@ -191,11 +233,10 @@
                 position: absolute;
             }
         }
-
-
+        
+        
     }
-
-
+    
     .box_info2{
         display: flex;
         flex-direction: row;
@@ -211,6 +252,7 @@
         gap: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
+        transition: all ease-in-out 0.2s;
 
         .icon_box_info2{
             width: 32px;
@@ -255,6 +297,13 @@
     }
 
 }
+.icon_box_info1:hover{
+    transform: scale(1.1) rotate(7.9deg);
+    
+}
+.icon_box_info2:hover{
+    transform: scale(1.1) rotate(7.9deg);
+}
 
 .box_info1:hover{
     transition: 0.200s;
@@ -269,46 +318,117 @@
 
 .section_naba{
     margin: 5rem;
-    margin-top: 0rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: auto;
+    height: 89px;
+    border-radius: 45px;
+    background: linear-gradient(265deg, rgba(238, 165, 87, 0.31) 11.04%, rgba(238, 165, 87, 0.30) 83.15%);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    align-content: center;
+    /* transition: all ease-in-out 49.9s; */
     
     .navbar_page{
         gap: 2rem;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        margin-top: 0.5rem;
+        padding-bottom: 1rem;
 
 
         .button1{
-            
+            width: auto;
+            height: 43px;
+            aspect-ratio: 110/43;
+            border-radius: 12px;
+            border: 2px solid #323232;
+            background: #FBFBFB;
+            box-shadow: -5px 5px 0 0 #323232;
+            transition: all ease-in-out 0.2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .button1:hover{
+            transform: scale(1.08) rotate(-2.1deg);
         }
         .button2{
-
+            width: auto;
+            height: 43px;
+            aspect-ratio: 71/43;
+            border-radius: 12px;
+            border: 2px solid #323232;
+            background: #EEA557;
+            box-shadow: -5px 5px 0 0 #323232;
+            transition: all ease-in-out 0.2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #FBFBFB;
+        }
+        .button2:hover{
+            transform: scale(1.08) rotate(2.1deg);
         }
         .button3{
-
+            width: auto;
+            height: 43px;
+            aspect-ratio: 101/43;
+            border-radius: 12px;
+            border: 2px solid #212655;
+            background: #FBFBFB;
+            box-shadow: -5px 5px 0 0 #212655;
+            transition: all ease-in-out 0.2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .button3:hover{
+            transform: scale(1.08) rotate(-2.1deg);
         }
         .button4{
-
+            width: auto;
+            height: 43px;
+            aspect-ratio: 76/43;
+            border-radius: 12px;
+            border: 2px solid #212655;
+            background: #FF7D7D;
+            box-shadow: -5px 5px 0 0 #212655;
+            transition: all ease-in-out 0.2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #FBFBFB;
+        }
+        .button4:hover{
+            transform: scale(1.08) rotate(2.1deg);
         }
     }
+
 }
 
 
-/* .decor_1{
-    position: relative;
-    z-index: 1;
-    top: 1rem;
-    left: 1rem;
-    right: 20px;
-} */
-
 /* ukuran handphone */
 @media(max-width: 426px){
+    .main_page{
+        margin:0rem;
+        gap: 1rem;
+    }
+
     .box_section{
         transform: scale(0.5);
-        transform-origin: 0.5rem 1rem;
+        transform-origin: center;
+    }
+
+    .section_naba{
+        transform: scale(0.7);
+        justify-content: left;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
