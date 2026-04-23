@@ -1,12 +1,13 @@
 body{
     margin-top: 0px;
+    margin-bottom: 0;
     background-image: url(Resource/Visit\ Now_\ Stunning\ White\ Paper\ Background\ Vector\ for\ Your\ Designs!.jpg);
     background-repeat: none;
     background-size: cover;
     /* background: linear-gradient(157deg, #FF7D7D -5.09%, #8894FF 87.77%); */
 }
 
-.parent_box_atas{
+/* .parent_box_atas{
     display: flex;
     justify-content: center;
     padding-top: 0rem;
@@ -21,10 +22,11 @@ body{
         background: #EEA557;
         box-shadow: 0 6px 0 0 #323232;
     }
-}
+} */
 
 .main_page{
     margin: 2rem;
+    margin-bottom: 0.5rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -327,7 +329,7 @@ body{
     flex-wrap: wrap;
     width: auto;
     height: 89px;
-    border-radius: 45px;
+    border-radius: 15px;
     background: linear-gradient(265deg, rgba(255, 246, 236, 0.432) 11.04%, rgba(255, 194, 128, 0.865) 83.15%);
     border-radius: 39px;
     /* background: linear-gradient(265deg, rgba(238, 165, 87, 0.31) 11.04%, rgba(238, 165, 87, 0.30) 83.15%); */
@@ -469,16 +471,38 @@ body{
     }
 }
 
-/* .decor1{
-    z-index: 0;
-    top: 12rem;
-    left: 20rem;
-    rotate: 50deg;
-    position: absolute;
-    /* opacity: 75%; */
-/* } */
+.contaier_image_logo_media{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    width: auto;
+    height:auto;
+    
+    .logo_mediasosial{        
+        width:  30px;
+        height: 30px;
+        filter: grayscale(100%);
+        transition: all ease-in-out 0.3s;
+    }
+}
+.logo_mediasosial:hover{
+    transform: scale(1.09);
+    filter: grayscale(0%);
+}
 
+.blue_box_butttom{
+    width: 270px;
+    height: 15px;
+    border-radius: 100px 100px 0 0;
+    background: #212655;
+    margin-bottom: 0;
 
+}
 
 
 
@@ -501,6 +525,8 @@ body{
         margin-right: 0rem;
     }
 }
+
+
 
 
 /* .box-card { */
