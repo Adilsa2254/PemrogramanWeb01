@@ -199,8 +199,7 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: left;
-        row-gap: 2rem;
-        column-gap: 4rem;
+        gap: 4rem;
         padding: 4rem;
         padding-top: 0;
 
