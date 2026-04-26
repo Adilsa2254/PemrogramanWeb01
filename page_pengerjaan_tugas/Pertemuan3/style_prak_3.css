@@ -75,7 +75,7 @@ h1{
     color: white;
     gap: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 2rem;
+    margin-top: 4rem;
 
 }
 
@@ -105,9 +105,12 @@ h1{
     padding: 2em;
     max-width: 80rem;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
-
+.car-list h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #212655;
+}
 
 .car-list h2 {
     font-size: 2em;
@@ -194,19 +197,19 @@ h3{
     padding-right: 1em;
     font-size: 12px;
 }
-.car-item.Detail_car_hiden{
-    opacity: 0;                 /* Membuat teks transparan 100% */
-    visibility: hidden;         /* Mencegah teks bisa diklik/diblok saat sedang sembunyi */
-    transform: translateY(20px); /* Menurunkan posisi awal teks sedikit ke bawah */
-    transition: all 1s ease-in-out; /* Durasi animasi untuk teks */
-    margin-top: 1em;            /* Memberi jarak antara judul mobil dan teks detail */
+.pbox{
+    opacity: 0;                 
+    visibility: hidden;         
+    transform: translateY(20px); 
+    transition: all 1s ease-in-out; 
+    margin-top: 1em;            
     color: #a4a4a4;
 }
-.car-item.Detail_car_hiden:hover{
-    opacity: 1;                 /* Membuat teks terlihat sepenuhnya */
-    visibility: visible;        /* Mengembalikan visibilitas teks */
-    transform: translateY(0);   /* Mengembalikan teks ke posisi aslinya (meluncur ke atas) */
-    transition-delay: 0.1s;     /* Memberi jeda waktu sedikit agar teks muncul saat kotak sudah mulai memanjang */
+.car-item:hover .pbox{
+    opacity: 1;                 
+    visibility: visible;        
+    transform: translateY(0);   
+    transition-delay: 0.1s;     
 }
 
 
