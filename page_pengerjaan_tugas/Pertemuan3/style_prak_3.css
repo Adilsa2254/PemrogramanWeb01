@@ -7,14 +7,13 @@ body{
 #search {
     width: 100%;
     height: 30em;
-    background: linear-gradient(rgba(15, 7, 37, 20.721), rgba(15, 7, 37, 20.700)), url("https://images.unsplash.com/photo-1610809376778-928ee2c3a561?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-blend-mode: lighten;
+    background: linear-gradient(#05117885, #05117885), url(https://images.unsplash.com/photo-1610809376778-928ee2c3a561?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 0 0 18px 18px;
+    border-radius: 0 0 15px 15px;
     transition: all ease-in-out 0.3s;
 }
 
@@ -30,7 +29,7 @@ h1{
     height: auto;
     border-radius: 70px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 41, 58);
+    color: rgb(0, 72, 255);
     padding-top: 1em;
     padding-bottom: 1em;
     font-weight: 700; 
@@ -38,24 +37,28 @@ h1{
 
 .title {
     color: white;
-    text-align: left;
+    text-align: center;
+    margin-top: 10em;
 }
 
 .title h1 {
     font-size: 3em;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title p {
     font-size: 1.5em;
-    margin: 0.5em 0;
+    margin: 0;
+    color: #f1f1f185;
 }
 
 .title hr {
     width: 50em;
     max-width: 90vw;
     border: 1px solid white;
-    margin: 3em auto;
+    margin: 0;
+    margin-bottom: 4em;
     opacity: 0.5;
 }
 
@@ -72,6 +75,8 @@ h1{
     color: white;
     gap: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+
 }
 
 .form-container select,
@@ -94,47 +99,48 @@ h1{
 }
 
 
-.decor_header{
-    height: 200px;
-    width: 200px;
-    color: #ff5722;
-}
-
 .car-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 4.5em;
-    align-content: center;
-    padding: 2em 2em;
-    padding-right: 2em;
-    align-items: start;
+    column-width: 20rem;
+    column-gap: 2em; 
+    padding: 2em;
     max-width: 80rem;
     margin: 0 auto;
+    margin-top: 5rem;
 }
+
 
 .car-list h2 {
     font-size: 2em;
     margin: 2em 0;
     grid-column: 1 / -1;
+    column-span: all;
     text-align: center;
 }
 
 .car-item {
-    padding: 1em;
-    /* margin-right: 1em; */
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    width: min(22rem, 100%);
+    box-sizing: border-box;
     border-radius: 30px;
     background: #FBFBFB;
     box-shadow: -5px 5px 15px 0 rgba(33, 38, 85, 0.25);
+    overflow: hidden;
+    height: 20em;
+    break-inside: avoid; 
+    margin-bottom: 4.5em;     
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all ease-in-out 0.8s;
 }
 
+.car-item:hover{
+    height: 30em;
+    transform: translateY(-10px);
+}
+    
 .car-item img {
     width: 100%;
-    /* height: auto; */
     height: 190px;
     object-fit: cover;
     border-radius: 25px;
@@ -145,9 +151,79 @@ h1{
 .car-item img:hover{
     filter: blur(0%);
     filter: grayscale(0%);
-    /* transform: scale(0.9); */
 }
 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+    color: #212655;
+    /* width: 100%;
+    text-align: center; */
+    margin-left: 1rem;
+}
+
+.car-item_pjudul{
+    width: auto;
+    height: auto;
+    background-color: #f19a716c;
+    border-radius: 15px;
+    color: #5c1806;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
+    margin-top: 0px;
+    padding: 0.5em;
+    font-size: 12px;
+}
+.countainer_rate{
+    display: flex; 
+    justify-content: left; 
+    width: 100%; 
+    align-items: center; 
+    gap:1em; 
+    margin-left: .5rem;
+}
+.car-item_pjudul2{
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    border-radius: 15px;
+    color: #6776ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 12px;
+}
+.car-item.Detail_car_hiden{
+    opacity: 0;                 /* Membuat teks transparan 100% */
+    visibility: hidden;         /* Mencegah teks bisa diklik/diblok saat sedang sembunyi */
+    transform: translateY(20px); /* Menurunkan posisi awal teks sedikit ke bawah */
+    transition: all 1s ease-in-out; /* Durasi animasi untuk teks */
+    margin-top: 1em;            /* Memberi jarak antara judul mobil dan teks detail */
+    color: #a4a4a4;
+}
+.car-item.Detail_car_hiden:hover{
+    opacity: 1;                 /* Membuat teks terlihat sepenuhnya */
+    visibility: visible;        /* Mengembalikan visibilitas teks */
+    transform: translateY(0);   /* Mengembalikan teks ke posisi aslinya (meluncur ke atas) */
+    transition-delay: 0.1s;     /* Memberi jeda waktu sedikit agar teks muncul saat kotak sudah mulai memanjang */
+}
+
+
+.footer_box{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #212655;
+    margin-top: 5rem;
+    position: absolute;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
+    color: #F1F1F1;
+    border-radius: 25px 25px 0 0;
+    margin-left: 2rem;
+
+    /* transition: all ease-in-out 0.8s; */
 }
