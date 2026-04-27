@@ -198,12 +198,14 @@ h3{
     font-size: 12px;
 }
 .pbox{
-    opacity: 0;                 
+    opacity: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;                 
     visibility: hidden;         
     transform: translateY(20px); 
     transition: all 1s ease-in-out; 
     margin-top: 1em;            
-    color: #a4a4a4;
+    color: #5b5b5b;
+    margin-left: 1em;
 }
 .car-item:hover .pbox{
     opacity: 1;                 
@@ -225,7 +227,7 @@ h3{
     justify-content: center;
     padding: 2em;
     color: #F1F1F1;
-    border-radius: 25px 25px 0 0;
+    border-radius: 45px 45px 0 0;
     margin-left: 2rem;
 
     /* transition: all ease-in-out 0.8s; */
