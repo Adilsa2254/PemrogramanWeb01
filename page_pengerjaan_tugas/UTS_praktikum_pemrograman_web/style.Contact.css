@@ -1,0 +1,106 @@
+.Navbar_sticky{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;   
+    position: fixed;
+    /* position: absolute; */
+    left: 1em;
+    top: 30%;    
+    
+    .section_button{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        row-gap: 1em;
+        column-gap: 1em;
+        margin-top: 0.5em;
+        border-radius: 40px;
+        background: #FBFBFB;
+        box-shadow: -5px 5px 15px 0 rgba(33, 38, 85, 0.25);
+
+        .a-style_navbar{
+            text-decoration: none;
+            display: flex;
+            
+            .logo_navbar{
+                border-radius: 2em;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding: 0.5em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+                transition: all ease-in-out 0.3s;
+                justify-content: center;
+
+                
+                .ri-home-3-line{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    /* font-weight: 100; */
+                    color: #212121;
+                    margin-top: 0.5em;
+                    transition: all ease-in-out 0.3s;
+                }
+                .ri-user-3-line{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    /* font-weight: 100; */
+                    color: #212121;
+                    transition: all ease-in-out 0.3s;
+                }
+                .ri-phone-line{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    /* font-weight: 100; */
+                    color: #212121;
+                    transition: all ease-in-out 0.3s;
+                }
+                .ri-bookmark-line{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    /* font-weight: 100; */
+                    color: #212121;
+                    margin-bottom: 0.5em;
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+        }
+        .a-style_navbar:hover .logo_navbar i {
+            color: #fffefe; 
+        }
+        .ri-home-3-line:hover{
+            transform: translateY(-5px); 
+            background-color: #ff7a7a;
+            padding: 0.2em;
+            border-radius: 1000px;
+        }
+        .ri-user-3-line:hover{
+            transform: translateY(-5px); 
+            background-color: #ff7a7a;
+            padding: 0.2em;
+            border-radius: 1000px;
+        }
+        .ri-phone-line:hover{
+            transform: translateY(-5px); 
+            background-color: #ff7a7a;
+            padding: 0.2em;
+            border-radius: 1000px;
+        }
+        .ri-bookmark-line:hover{
+            transform: translateY(-5px); 
+            background-color: #ff7a7a;
+            padding: 0.2em;
+            border-radius: 1000px;
+        }
+    }       
+}
