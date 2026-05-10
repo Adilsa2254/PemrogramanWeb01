@@ -5,7 +5,6 @@ body{
     /* background-color: rgb(255, 245, 233); */
 }
 
-
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
@@ -386,6 +385,7 @@ button:hover {
                 width: auto;
                 height: auto;
                 padding: 0.4em;
+                border-radius: 20px;
                 cursor: pointer;
                 transition: all ease-in-out 0.3s;
             }
@@ -431,8 +431,6 @@ button:hover {
         transform: translateY(-10px);
     }
 }
-
-
 
 .footer{
     display: flex;
@@ -491,4 +489,143 @@ button:hover {
 
         }
     }    
+}
+
+@media screen and (max-width: 1024px) {
+    .main_page {
+        padding-left: 5em;
+        gap: 1.5em;
+    }
+
+    .main_page .section1,
+    .main_page .section2 {
+        width: 50%;
+    }
+
+    .main_page1 .image_container {
+        width: 85vw; 
+        margin-left: 5em;
+    }
+
+    .main_page1 p, 
+    .main_page1 .antoher_bookpart p {
+        margin-left: 5em;
+    }
+
+    .section_btm .Section_buttom_box {
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0.5em;
+        padding-bottom: 6em; 
+    }
+
+    .Navbar_sticky {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .Navbar_sticky .section_button {
+        flex-direction: row; 
+        width: 100%;
+        border-radius: 20px 20px 0 0; 
+        justify-content: space-around;
+        padding: 10px 0;
+        margin: 0;
+        box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+    }
+
+    .Navbar_sticky .section_button .a-style_navbar .logo_navbar {
+        padding: 0.5em;
+    }
+    
+    .Navbar_sticky .section_button .a-style_navbar .logo_navbar i {
+        margin: 0;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+        margin: 1em;
+        gap: 1em;
+    }
+
+    .search-container input[type="text"] {
+        width: 200px; 
+    }
+
+    .main_page {
+        flex-direction: column;
+        padding-left: 1em;
+        padding-right: 1em;
+        gap: 2em;
+    }
+
+    .main_page .section1, 
+    .main_page .section2 {
+        width: 100%;
+        margin: 0;
+        border-left: none; 
+        padding: 0;
+    }
+
+    .main_page .section1 .header p {
+        font-size: 28px; 
+    }
+
+    .main_page .section2 {
+        border-top: 2px solid #e0e0e0;
+        padding-top: 2em;
+    }
+
+    .main_page .section2 .paragraft {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .main_page1 p, 
+    .main_page1 .antoher_bookpart p {
+        margin-left: 1em;
+        font-size: 20px;
+    }
+
+    .main_page1 .antoher_bookpart .praft1 {
+        margin-right: 1em;
+        font-size: 13px;
+    }
+
+    .main_page1 .image_container {
+        margin-left: 1em;
+        width: 90vw;
+        gap: 1.5em;
+    }
+
+    .main_page1 .image_container .image_book {
+        height: 180px;
+        width: auto;
+    }
+
+    .section_btm .Section_buttom_box {
+        margin-left: 1em;
+        margin-right: 1em;
+        gap: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+        padding: 1.5em;
+        margin-bottom: 2em; 
+        border-radius: 15px;
+    }
 }
