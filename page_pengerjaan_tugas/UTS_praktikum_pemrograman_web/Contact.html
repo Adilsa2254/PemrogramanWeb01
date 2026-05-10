@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleAbout.css">
+    <link rel="stylesheet" href="style.Contact.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
     <title>Contact</title>
 </head>
@@ -35,5 +35,54 @@
         </section>
     </nav>
 
+    <section class="section">
+        <div style="display: flex; flex-direction: row;">
+            <i class="ri-book-3-line">
+                <P>MyElibrary.co</P>
+            </i>
+        </div>
+        <div class="Faq_btn">
+            <i class="ri-question-answer-line"></i>
+            <p>
+                FAQ
+            </p>
+        </div>
+    </section>
+
+    <main class="main_page1">
+        <div class="box_mainpage1">
+            <form action="/submit" method="post">
+            <label for="name"> Your Name: </label>
+            <input type="text" id="name" name="name" required><br></br>
+
+            <label for="email"> Your Email: </label>
+            <input type="email" id="email" name="email" required><br></br>
+
+            <label for="message"> Message For Me: </label>
+            <textarea name="message" id="message" rows="4" cols="50" required></textarea><br></br>
+            
+            
+            <button type="submit" name="submit" class="input_s"><i class="ri-attachment-2"></i>Submit</button>
+            <!-- <input type="submit" name="submit" class="input_s"> -->
+            </form>
+        </div>
+        <div class="box_mainpage2">
+            <div class="taq_top">
+                <i class="ri-gitbook-line"></i>
+                <p>
+                    Tell About Me Your Book?
+                </p>
+            </div>
+            <h2>
+                Start Your <i class="ri-heart-add-line"></i>
+                <br>Journay Today 
+            </h2>
+            <p>
+                ingin beritahu aku tentang buku yang ingin
+                <br> atau sedang dibaca, atau atau mau saran
+                <br> an kritikan?
+            </p>
+        </div>
+    </main>
 </body>
 </html>
