@@ -195,7 +195,7 @@
             justify-content: left;
             gap: 2px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #ffbebec3;
+            color: rgb(250, 250, 250);
 
             input{
                 border-radius: 8px;
@@ -307,6 +307,24 @@
             font-size: 12px;
             padding-left: 0.5em;
         }
-    }
 
+        .countainer_box_mail{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            gap: 20px;
+            margin-top: 2em;
+            margin-left: 0.5em;
+
+            i{
+                font-size: 30px;
+                align-items: center;
+                p{
+                    font-size: 15px;
+                    margin: 0em;
+                }
+            }
+        }
+    }
 }
