@@ -137,7 +137,10 @@ body{
             transition: all ease-in-out 0.2s;
         }
     }
-
+    a{
+        text-decoration: none;
+        color: #212121;
+    }
     .Faq_btn{        
         display: flex;
         flex-direction: row;
