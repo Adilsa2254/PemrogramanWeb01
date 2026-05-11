@@ -106,3 +106,179 @@
 }
 
 
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: 2em;
+    margin-top: 0em;
+    margin-left: 7em;
+    margin-right: 4em;
+    i{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #212121;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: all ease-in-out 0.2s;
+        
+        p{
+            font-size: 25px;
+            margin-left: 0.5em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: all ease-in-out 0.2s;
+        }
+    }
+    
+    a{
+        text-decoration: none;
+        color: #212121;
+    }
+    .Faq_btn{        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding: 0.4em;
+        gap: 1em;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all ease-in-out 0.3s;
+        i{
+            font-size: 20px;
+            opacity: 0%;
+        }
+        
+        p{
+            margin: 0em;
+            padding: 0em;
+        }
+    }
+    .Faq_btn:hover{
+        background-color: #131313;
+        border-radius: 20px;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: #FBFBFB;
+        
+        i{
+            color: #FBFBFB;
+            opacity: 100%;
+        }
+    }
+}
+
+.Container_listbook{
+    margin-top: 4em;
+    margin-left: 7em;
+    margin-right: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    row-gap: 4em;
+    column-gap: 8em;
+
+    .box_book{
+        width: 200px;
+        height: auto;
+        padding: 25px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0.5em;
+
+        h5{
+            width: 100%;
+            align-self: first baseline;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            color: #212121;
+            margin: 0;
+            padding-bottom: 5px;
+            border-bottom: solid #585858 1.5px;
+        }
+        p{
+            text-align: left;
+            align-self: first baseline;
+            font-size: 12px;
+            color: #212121;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+        
+        img{
+            margin-top: 1em;
+            margin-bottom: 2em;
+            width:200px;
+            height: 300px;
+            transition: all ease-in-out 0.2s;
+            cursor: pointer;
+            filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+            transition: all ease-in-out 0.3s;
+        }
+
+
+        .icon_box{
+            /* width: auto; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+            .box_left{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 4px;
+            }
+
+            .box_right{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+        }
+        
+
+        .section_btn_read{
+            margin-top: 1em;
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            
+            p{
+                border-bottom: solid #212121 1px;
+                padding-bottom:0.4em;
+                cursor: pointer;
+                transition: all ease-in-out 0.2s;
+            }
+            i{
+                color: #212121;
+                transition: all ease-in-out 0.2s;
+            }
+        }
+    }
+}
+
+.Container_listbook .box_book:hover img{
+    transform: translate(-2px, -8px);
+}
+
+.section_btn_read:hover p{
+    transform: translateX(-2px);
+}
+.section_btn_read:hover i{
+    transform: translate(2px, -2px);
+}
