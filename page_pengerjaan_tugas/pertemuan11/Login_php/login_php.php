@@ -51,9 +51,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="bg-white p-8 rounded-2xl shadow-lg max-w-sm w-full">
         <h1 class="text-xl font-semibold text-center mb-6">Login</h1>
 
-        <?php if ($error): ?>
-            <p class="bg-red-100 text-red-700 px-4 py-2 rounded mb-4 text-sm">
-                <?= htmlspecialchars($error) ?>
+        <?php if ($gagal): ?>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <?= htmlspecialchars($gagal) ?>
+            </p>
+        <?php endif; ?>
+
+        <?php if ($berhasil): ?>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <?= htmlspecialchars($berhasil) ?>
             </p>
         <?php endif; ?>
 
@@ -77,6 +83,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     placeholder="Masukkan password">
             </div>
 
+            <div>
+                <input type="checkbox" id="ingat_saya" name="ingat_saya">
+                <label for="ingat_saya"> Remember me</label>
+            </div>
             <!-- ============================================= -->
             <!-- TUGAS 2: Tambahkan checkbox "Remember me"    -->
             <!-- di antara password dan tombol login di bawah  -->
