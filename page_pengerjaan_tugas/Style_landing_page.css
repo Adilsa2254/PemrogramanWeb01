@@ -157,23 +157,6 @@ h1 {
     text-align: left;
 }
 
-.bottom-bar {
-  width: 100%;
-  background: #0e0e0e;
-  height: 98px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 22px;
-}
-
-.bottom-bar p {
-  margin: 0;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0.08em;
-}
-
 @media (max-width: 1120px) {
   .cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -203,8 +186,4 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .bottom-bar {
-    height: 80px;
-    padding-bottom: 18px;
-  }
 }
