@@ -1,10 +1,7 @@
 <?php
-
-
-$UserNameErr = '';
+$userNameErr = '';
 $username = '';
 $password = '';
-$error = '';
 $gagal = '';
 $berhasil = '';
 
@@ -12,28 +9,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
     $remember = isset($_POST['remember']);
-
-    if (trim($username) === '' || trim($password) === '')
-    {
-        $gagal = 'Nama harus diisi, tidak boleh kosong';
-    } 
-    elseif($username === 'Adil' && $password === '241110038')
-    {
+    if (trim($username) === '' || trim($password) === '') {
+        $gagal = 'Nama Harus di isi dan tidak boleh kosong';
+    } elseif ($username === 'Adil' && $password === '241110038') {
         $berhasil = 'Login berhasil';
+    } else {
+        $gagal = 'Password yang kamu masukan salah';
     }
-    else
-    {
-        $gagal = 'password atay username yang kamu masukan salah!!';
-    }
-
-    // =============================================
-    // TUGAS 1: Tambahkan validasi di sini
-    // - Jika username atau password kosong, tampilkan pesan error
-    // - Jika username = "admin" dan password = "12345", tampilkan pesan sukses
-    // - Jika salah, tampilkan pesan "Username atau password salah!"
-    // =============================================
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -52,13 +35,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <h1 class="text-xl font-semibold text-center mb-6">Login</h1>
 
         <?php if ($gagal): ?>
-            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <p class="bg-red-100 text-red-700 px-4 py-2 rounded mb-4 text-sm">
                 <?= htmlspecialchars($gagal) ?>
             </p>
         <?php endif; ?>
 
         <?php if ($berhasil): ?>
-            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <p class="bg-green-100 text-green-700 px-4 py-2 rounded mb-4 text-sm">
                 <?= htmlspecialchars($berhasil) ?>
             </p>
         <?php endif; ?>
@@ -83,14 +66,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     placeholder="Masukkan password">
             </div>
 
-            <div>
-                <input type="checkbox" id="ingat_saya" name="ingat_saya">
-                <label for="ingat_saya"> Remember me</label>
+            <div class="mb-4 flex items-center gap-2">
+                <input
+                    type="checkbox"
+                    id="Ingat_saya"
+                    name="Ingat_saya"
+                    class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                <label for="Ingat_saya" class="text-sm">Ingat saya</label>
             </div>
-            <!-- ============================================= -->
-            <!-- TUGAS 2: Tambahkan checkbox "Remember me"    -->
-            <!-- di antara password dan tombol login di bawah  -->
-            <!-- ============================================= -->
 
             <button
                 type="submit"
